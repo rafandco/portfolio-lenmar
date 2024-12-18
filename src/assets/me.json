@@ -1,0 +1,10 @@
+{
+  "nombre": "Rafael",
+  "apellidos": "Díaz García",
+  "profesion": "Informático",
+  "descripcion": "Apasionado por la tecnología",
+  "experiencia": [
+    { "nombreEmpresa": "Geserisk", "estancia": "12/10/2021 - 12/12/2024" },
+    { "nombreEmpresa": "SAP", "estancia": "12/10/2021 - 12/12/2024" }
+  ]
+}
