@@ -1,18 +1,29 @@
 {
-  "nombre": "nombre",
-  "profesion": "profesion",
-  "bio": "bio",
+  "nombre": "Rafael Díaz García",
+  "profesion": "Estudiante de GCFS DAW",
+  "bio": "Entusiasta de la programación y la tecnología. Actualmente estudiando Desarrollo de Aplicaciones Web en el IES Politécnico de Las Palmas.",
   "experiencia": [
     {
-      "nombre": "nombre",
-      "descripcion": "descripcion",
-      "fecha": "fecha"
+      "nombre": "Empresa1",
+      "descripcion": "trabaje mucho",
+      "fecha": "12/12/2024 - 12/12/2025"
     },
     {
-      "nombre": "nombre",
-      "descripcion": "descripcion",
-      "fecha": "fecha"
+      "nombre": "Empresa2",
+      "descripcion": "trabaje mucho",
+      "fecha": "12/12/2024 - 12/12/2025"
+    },
+    {
+      "nombre": "Empresa3",
+      "descripcion": "trabaje mucho",
+      "fecha": "12/12/2024 - 12/12/2025"
     }
   ],
-  "habilidades": ["Habilidades", "Habilidades", "Habilidades"]
+  "habilidades": [
+    "Habilidades1",
+    "Habilidades2",
+    "Habilidades3",
+    "Habilidades4",
+    "Habilidades5"
+  ]
 }
