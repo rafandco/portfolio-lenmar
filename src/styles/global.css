@@ -1,5 +1,87 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 section {
   max-width: 900px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 32px;
+  background-color: black;
+  color: white;
+  height: fit-content;
+  border-radius: 32px;
+}
+
+.hero h1 {
+  margin: 0px;
+}
+
+.hero p {
+  margin: 0px;
+}
+
+.nombre {
+  font-size: 72px;
+  line-height: 100%;
+}
+
+.profesion {
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.bio {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+  text-align: center;
+}
+
+.experiencia {
+  padding: 16px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.exp-nombre {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.exp-descripcion {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.exp-fecha {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(115, 115, 115);
+}
+
+.habilidad {
+  width: fit-content;
+  padding: 8px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 8px;
+}
+
+.habilidad p {
+  width: fit-content;
+  margin: 0px;
+}
+
+.envoltura-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
