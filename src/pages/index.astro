@@ -1,8 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
+interface Project {
+  title: string
+  description: string
+}
+
 const { default: meData } = await import('../assets/me.json');
 
+const projects = await Astro.glob<Project>("../pages/projects/*.md")
+console.log(projects)
 ---
 
 <Layout>
@@ -11,6 +18,25 @@ const { default: meData } = await import('../assets/me.json');
 		<p class="profesion">{meData.profesion}</p>
 		<p class="bio">{meData.bio}</p>
 	</section>
+
+
+
+	<section>
+		<h2>Proyectos</h2>
+		{projects.map((project) => (
+			<a href={project.url}>
+				<article class="proyecto">
+					<h3>{project.frontmatter.title}</h3>
+					<p>{project.frontmatter.description}</p>
+				</article>
+			</a>
+		))}
+	</section>
+
+
+
+
+
 	<section>
 		<h2>Experiencia</h2>
 		{meData.experiencia.map((exp) => (
