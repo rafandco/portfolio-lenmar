@@ -10,30 +10,6 @@
 		},
 		{
 			"handle": "filesystem"
-		},
-		{
-			"src": "^\\/_server-islands\\/([^/]+?)\\/?$",
-			"dest": "_render"
-		},
-		{
-			"src": "^\\/_image\\/?$",
-			"dest": "_render"
-		},
-		{
-			"src": "^\\/projects\\/my-project\\/?$",
-			"dest": "_render"
-		},
-		{
-			"src": "^\\/projects\\/my-project-2\\/?$",
-			"dest": "_render"
-		},
-		{
-			"src": "^\\/projects\\/my-project-3\\/?$",
-			"dest": "_render"
-		},
-		{
-			"src": "^\\/$",
-			"dest": "_render"
 		}
 	]
 }
