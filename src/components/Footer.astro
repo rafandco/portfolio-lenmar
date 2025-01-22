@@ -1,0 +1,49 @@
+---
+import Github from "./icons/Github.astro";
+import Instagram from "./icons/Instagram.astro";
+import Linkedin from "./icons/Linkedin.astro";
+---
+
+<footer>
+    <nav>
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/rafandco/">
+                    <Instagram/>
+                </a>
+            </li>
+            <li><a href="https://github.com/rafandco"><Github/></a></li>
+            <li><a href="https://www.linkedin.com/in/rafael-d%C3%ADaz-garc%C3%ADa/"><Linkedin/></a></li>
+        </ul>
+    </nav>
+</footer>
+
+<style>
+    footer {
+        margin-top: 84px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    ul {
+        width: fit-content;
+        padding: 16px;
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        align-items: center;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+</style>
