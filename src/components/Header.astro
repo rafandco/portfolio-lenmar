@@ -1,0 +1,75 @@
+<header>
+    <nav>
+        <ul>
+            <li><a href="/#inicio">Inicio</a></li>
+            <li><a href="/#proyectos">Proyectos</a></li>
+            <li><a href="/#experiencia">Experiencia</a></li>
+            <li><a href="/#habilidades">Habilidades</a></li>
+        </ul>
+    </nav>
+</header>
+
+<style>
+  header {
+    width: 100%;
+    position: fixed;
+    left: 50%;
+    top: 0px;
+    bottom: auto;
+    transform: translateX(-50%);
+    margin: 16px 0px;
+    grid-area: header;
+    margin-top: 16px;
+  }
+
+  nav {
+    width: fit-content;
+    margin: 0px auto 0px auto;
+    background-color: black;
+    border-radius: 16px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;
+    border-radius: 32px;
+    border: var(--card-border);
+    background-color: var(--gray-medium-transparent);
+    box-shadow: var(--box-shadow);
+    backdrop-filter: var(--blur);
+    -webkit-backdrop-filter: var(--blur);
+  }
+
+  li {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px 0;
+  }
+
+    li:hover {
+    list-style-type: none;
+    margin: 8px;
+    padding: 8px 0;
+    background-color: grey;
+    border-radius: 8px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 24px;
+  }
+
+  a:hover {
+    background-color: var(--gray-ultra-light-transparent);
+    backdrop-filter: var(--blur);
+    -webkit-backdrop-filter: var(--blur);
+    text-decoration: none;
+    color: white;
+  }
+</style>

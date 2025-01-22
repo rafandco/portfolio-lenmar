@@ -1,4 +1,5 @@
 ---
+layout: "../../layouts/Layout.astro"
 title: "Mi Proyecto bueno"
 description: "Este proyecto ficticio tiene como objetivo crear una aplicación web"
 url: "my-project-3"

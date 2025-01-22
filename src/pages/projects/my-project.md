@@ -1,4 +1,5 @@
 ---
+layout: "../../layouts/Layout.astro"
 title: "Mi Proyecto Increíble"
 description: "Este proyecto ficticio tiene como objetivo crear una aplicación web"
 url: "localhost:4321/projects/my-project"

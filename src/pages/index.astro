@@ -1,4 +1,6 @@
 ---
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 import Layout from '../layouts/Layout.astro';
 
 interface Project {
@@ -13,7 +15,8 @@ console.log(projects)
 ---
 
 <Layout>
-	<section class="hero">
+	<Header />
+	<section class="hero" id="inicio">
 		<h1 class="nombre">{meData.nombre}</h1>
 		<p class="profesion">{meData.profesion}</p>
 		<p class="bio">{meData.bio}</p>
@@ -21,10 +24,10 @@ console.log(projects)
 
 
 
-	<section>
+	<section id="proyectos">
 		<h2>Proyectos</h2>
 		{projects.map((project) => (
-			<a href={project.url}>
+			<a href={project.url} class="enlace-proyecto">
 				<article class="proyecto">
 					<h3>{project.frontmatter.title}</h3>
 					<p>{project.frontmatter.description}</p>
@@ -32,12 +35,7 @@ console.log(projects)
 			</a>
 		))}
 	</section>
-
-
-
-
-
-	<section>
+	<section id="experiencia">
 		<h2>Experiencia</h2>
 		{meData.experiencia.map((exp) => (
 			<article class="experiencia">
@@ -47,7 +45,7 @@ console.log(projects)
 			</article>
 		))}
 	</section>
-	<section>
+	<section id="habilidades">
 		<h2>Habilidades</h2>
 		<div class="envoltura-habilidades">
 			{ 
@@ -60,4 +58,5 @@ console.log(projects)
 		</div>
 			
 	</section>
+	<Footer />
 </Layout>
